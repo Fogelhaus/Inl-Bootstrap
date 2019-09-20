@@ -1,0 +1,202 @@
+ul{
+    list-style: none;
+}
+
+#concept{
+    color: #e2725b;
+}
+#carouselArea{
+    
+    width: 100%;
+    z-index: -1;
+}
+#jumbotronArea{
+    z-index: 2;
+}
+#special{
+    border: none;
+}
+
+.card-header{
+    background-color: #e2725b44;
+}
+.card-body{
+    background-color: #e2725b2c;
+}
+.card-footer{
+    background-color: #e2725b44;
+}
+footer {
+    background-color: #e2725b;
+    color: antiquewhite;
+}
+footer p{
+    font-size: 12px;
+}
+#footerNav li{
+    line-height: 180%;
+}
+#footerNav a{
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
+#footerNav a:hover{
+    color: antiquewhite;
+    text-decoration-line: none;
+}
+.footerAddress p{
+    line-height: 2px;
+}
+#loginArea{
+    padding: 60px 0px;
+}
+#loginArea button{
+    background-color: #e2725b8c
+}
+#loginArea button:hover{
+    background-color: #e2725b;
+}
+
+#profilePic i{
+    font-size: 250px;
+    color: #e2725b;
+}
+#profileUserInfo button{
+    background-color: #e2725b8c;
+    border: none;
+}
+#profileUserInfo button:hover{
+    background-color: #e2725b;
+    border: none;
+}
+#registerArea button{
+    background-color: #e2725b8c;
+}
+#registerArea button:hover{
+    background-color: #e2725b;
+}
+#footerSocial a{
+    color: antiquewhite;
+    font-size: 20px;
+}
+.fa-youtube-square:hover{
+color: #bb0000;
+font-size: 20px;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+    font-size: 20px;
+}
+.fa-instagram:hover{
+    color: #517fa4;
+    font-size: 20px;
+}
+.fa-snapchat-square:hover{
+    color: #fffc00;
+    font-size: 20px;
+}
+.fa-twitter-square:hover{
+    color: #00aced;
+    font-size: 20px;
+}
+
+@media (max-width: 575px){
+    .jumbotron h1{
+        font-size: 40px;
+    }
+
+}
+@media (min-width: 576px) {
+    #loginArea{
+        padding: 100px 0px;
+    }
+    
+    @media (min-height: 940px) {
+        #loginFooter{
+            position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+        }
+    
+    }
+}
+
+
+@media (min-width: 768px) {
+    #loginArea{
+        padding: 100px 0px;
+    }
+    #footerNav{
+        padding-top: 10px;
+    }
+    #footerSocial{
+        padding-top: 10px;
+    }
+    #footerAddress{
+        padding-top: 14px;
+    }
+    
+    @media (min-height: 900px) {
+        #loginFooter{
+            position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+        }
+    
+    }
+}
+
+@media (min-width: 992px) {
+
+    #loginArea{
+        padding: 120px 0px;
+    }
+    @media (max-height: 855px) {
+        #loginFooter{
+            position: initial;
+        }
+    
+    }
+    @media (min-height: 856px) {
+        #loginFooter{
+            position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+        }
+    
+    }
+}
+
+@media (min-width: 1200px) {
+    #loginArea{
+        padding: 200px 0px;
+    }
+    @media (max-height: 979px) {
+        #loginFooter{
+            position: initial;
+        }
+    
+    }
+    @media (min-height: 980px) {
+        #loginFooter{
+            position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+        }
+    
+    }
+}
+/* 
+@media (min-height: 850px) {
+    #loginFooter{
+        position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    }
+
+} */
